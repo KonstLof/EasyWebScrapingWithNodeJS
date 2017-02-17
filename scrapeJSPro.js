@@ -2,7 +2,7 @@ var request = require("request");
 var cheerio = require("cheerio");
 
 request({
-  uri: "http://www.sitepoint.com",
+  uri: "https://www.sitepoint.com",
 }, function(error, response, body) {
   var $ = cheerio.load(body);
 
